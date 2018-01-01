@@ -8,8 +8,8 @@ public class Collections {
 		
 		Collection collection = new HashSet();
 		collection.add("darren");
-		collection.add("greene");
-		collection.add("greene");
+		collection.add("greene1");
+		collection.add("greene1");
 		
 		Iterator iter = collection.iterator();
 		while(iter.hasNext()) {
