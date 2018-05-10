@@ -2,4 +2,8 @@
 .project
 .settings/
 target/
-/.metadata/
+
+.metadata/
+
+.recommenders
+.git
