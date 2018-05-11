@@ -13,7 +13,6 @@ public class StringsEx {
 		System.out.println(sb);
 		
 		// StringBuilder - non-thread safe (java.lang)
-		// dwg
 		StringBuilder sb2 = new StringBuilder("name: ");
 		sb2.append(fname);
 		sb2.append(lname);
