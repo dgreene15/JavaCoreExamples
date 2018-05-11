@@ -7,6 +7,7 @@ public class StringsEx {
 		String lname = "LName";
 
 		// StringBuffer - thread safe (java.lang)
+		// dwg2
 		StringBuffer sb = new StringBuffer("name: ");
 		sb.append(fname);
 		sb.append(lname);
