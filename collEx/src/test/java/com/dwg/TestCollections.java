@@ -1,6 +1,4 @@
-package ex1;
-
-import static org.junit.Assert.*;
+package com.dwg;
 
 import org.junit.Test;
 

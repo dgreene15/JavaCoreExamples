@@ -1,4 +1,4 @@
-package coreEx;
+package com.dwg.services;
 
 public class StringsEx {
 
