@@ -1,4 +1,4 @@
-package com.dwg;
+package com.dwg.services;
 
 import org.junit.Test;
 
