@@ -17,6 +17,14 @@ public class SortingEx {
 			System.out.println(developer);
 		}
 		
+		listDevs.sort(new Comparator<Developer>() {
+			@Override
+			public int compare(Developer o1, Developer o2) {
+				return o1.getAge() - o2.getAge();
+			}
+		});
+		
+		/*
 		Collections.sort(listDevs, new Comparator<Developer>() {
 			@Override
 			public int compare(Developer o1, Developer o2) {
@@ -24,11 +32,18 @@ public class SortingEx {
 			}
 			
 		});
+		*/
 		
+		listDevs.sort((Developer o1, Developer o2)->o1.getAge() - o2.getAge());
+		
+		listDevs.forEach((developer)->System.out.println(developer));
+		
+		/*
 		System.out.println("After Sort");
 		for(Developer developer : listDevs) {
 			System.out.println(developer);
 		}
+		*/
 	}
 	
 	private static List<Developer> getDevelopers() {
